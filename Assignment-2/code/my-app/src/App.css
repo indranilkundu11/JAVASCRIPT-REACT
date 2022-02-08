@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+.container {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -24,8 +24,20 @@
   color: white;
 }
 
-.App-link {
+.title h1 {
   color: #61dafb;
+}
+.pro-info{
+  margin: 10px;
+}
+.pro-info label{
+  font-size: 13px;
+  color: black;
+}
+.pro-info label, .pro-info strong{
+  display: block;
+  float: left;
+  
 }
 
 @keyframes App-logo-spin {
