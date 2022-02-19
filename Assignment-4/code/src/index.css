@@ -11,3 +11,73 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  margin: 0;
+  padding: 0%;
+}
+h1{
+  font-family: palatino;
+  font-size: 60px;
+  font-weight:normal;
+  color: #006238;
+}
+.navbar{
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(243, 243, 243);
+  padding: 15px;
+  border-bottom: 3px solid #A2BDB2;
+}
+.logo{
+  margin-left: 50px;
+}
+.name{
+  position: absolute;
+  left:122px;
+}
+.camera{
+  position: absolute;
+  right: 90px;
+  top: 22px;
+}
+.main-info {
+  width: 100%;
+  height: inherit;
+  display: flex;
+}
+section {
+  border-radius: 3px;
+  border: 1px solid #BEBEBE;
+  width: 36%;
+  height: inherit;
+}
+aside {
+  width: 32%;
+  background-color: #FFFFFF;
+  height: inherit;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 20px;
+}
+.image-container img {
+  width: 100%;
+}
+
+footer {
+  padding: 0 20px;
+}
+.likes-share-date {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+.like-share img {
+  margin-right: 15px;
+}
+footer h2 {
+  padding: 15px 0 25px 0;
+}
